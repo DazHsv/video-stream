@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#v {
+	max-width: 100%;
+	display: none;
+}
+
+canvas {
+	max-width: 100%;
+	background-color: #000;
+}
+
+#img {
+}

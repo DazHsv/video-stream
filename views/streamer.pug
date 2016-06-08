@@ -1,0 +1,8 @@
+extends ./layout.pug
+block content
+	h1 Streamer Page
+	video(id="v" autoplay)
+	canvas(id="c")
+
+	script(src="https://cdn.socket.io/socket.io-1.4.5.js")
+	script(src="/static/js/streamer.js")
